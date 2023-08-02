@@ -1,6 +1,6 @@
 # SAVING DOG ADVENTURE
 
-Storyline provided in 'SAVING DOG ADVENTURE.docx'
+Storyline and instructions provided in 'SAVING DOG ADVENTURE.docx'
 
 ## Technologies used
 Java 11 *
