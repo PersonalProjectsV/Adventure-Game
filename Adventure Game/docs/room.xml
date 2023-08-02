@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<GAME>
+    <INTRO>
+        You recently moved into a new area,one day you decide to take your dog for a walk around the neigbourhood. As you are passing by a house which seems abandoned. Your dog suddenly breaks loose from the chain you are holding and speeds off into what seems like a tunnel and disappears. You then follow your dog to the entrance of the tunnel. You are now standing at the mouth of the tunnel
+        //Commands allowed:
+        -enter
+        -look
+        -grab "item"
+        -drop "item"
+        -n
+        -s
+        -e
+        -w
+    </INTRO>
+    <ROOM id="A">
+        <DARK>NO</DARK>
+        <DESCRIPTION>You have decided to enter the tunnel, after a few steps the platform you're standing on collapses and you fall a couple of meters and land in an empty room. There is no going back,you have to  navigate your way out of the the tunnel,with or without your dog</DESCRIPTION>
+        <INVENTORY>
+            <ITEM>Hat</ITEM>
+        </INVENTORY>
+        <DOORS>
+        </DOORS>
+    </ROOM>
+    <ROOM id="B">
+        <DARK>YES</DARK>
+        <DESCRIPTION>There seems to be nothing interesting in this room .Move right along</DESCRIPTION>
+        <INVENTORY>
+            <ITEM>C;key_Rusted</ITEM>
+            <ITEM>20,treasure_Bag</ITEM>
+        </INVENTORY>
+        <DOORS>
+        </DOORS>
+    </ROOM>
+    <ROOM id="C">
+        <DARK>YES</DARK>
+        <DESCRIPTION>There is a table with a table with a number of things on it,you might need these items. There is a door which is locked</DESCRIPTION>
+        <INVENTORY>
+            <ITEM>*lamp</ITEM>
+        </INVENTORY>
+        <DOORS>
+            <DOOR>W</DOOR>
+        </DOORS>
+    </ROOM>
+    <ROOM id="D">
+        <DARK>YES</DARK>
+        <DESCRIPTION>Nothing much interesting here,lets move</DESCRIPTION>
+        <INVENTORY>
+            <ITEM>E;key_Silver</ITEM>
+            <ITEM>40,treasure_Bag</ITEM>
+        </INVENTORY>
+        <DOORS>
+        </DOORS>
+    </ROOM>
+    <ROOM id="E">
+        <DARK>YES</DARK>
+        <DESCRIPTION>Remember, you have to find your dog or leave without it if you can.There is a dog which is locked</DESCRIPTION>
+        <INVENTORY>
+            <ITEM>lighter</ITEM>
+        </INVENTORY>
+        <DOORS>
+            <DOOR>E</DOOR>
+        </DOORS>
+    </ROOM>
+    <ROOM id="F">
+        <DARK>YES</DARK>
+        <DESCRIPTION>You are hearing your dog barking </DESCRIPTION>
+        <INVENTORY>
+            <ITEM>*lamp</ITEM>
+
+        </INVENTORY>
+        <DOORS></DOORS>
+    </ROOM>
+    <ROOM id="G">
+        <DARK>NO</DARK>
+        <DESCRIPTION>Great you have found your dog it looks injured,now get it and navigate your way out of the tunnel</DESCRIPTION>
+        <INVENTORY>
+        <ITEM>dog</ITEM>
+            <ITEM>5,treasure_Bag</ITEM>
+        </INVENTORY>
+        <DOORS></DOORS>
+    </ROOM>
+    <ROOM id="H">
+        <DARK>NO</DARK>
+        <DESCRIPTION>You need to hurry,your dog isn't looking good you need to find help for it,get out of thi place ASAP</DESCRIPTION>
+        <INVENTORY>
+
+        </INVENTORY>
+        <DOORS></DOORS>
+    </ROOM>
+    <ROOM id="I">
+        <DARK>NO</DARK>
+        <DESCRIPTION>A scary old witch appears and tells you to surrender at-least 60 worth of treasure or she will kill you</DESCRIPTION>
+        <INVENTORY>
+        </INVENTORY>
+        <DOORS></DOORS>
+    </ROOM>
+    <ROOM id="J">
+        <DARK>YES</DARK>
+        <DESCRIPTION>Almost there,you are starting to see a bit of light from outside</DESCRIPTION>
+        <INVENTORY>
+            <ITEM>rock</ITEM>
+            <ITEM>*lamp</ITEM>
+        </INVENTORY>
+        <DOORS></DOORS>
+    </ROOM>
+    <ROOM id="K">
+        <DARK>NO</DARK>
+        <DESCRIPTION>You have reached an exit, you and your dog have survived the ordeal thanks for playing ------THE END-------</DESCRIPTION>
+        <INVENTORY>
+            <ITEM>key</ITEM>
+        </INVENTORY>
+        <DOORS></DOORS>
+    </ROOM>
+</GAME>
